@@ -1,31 +1,42 @@
+body {
+  font-family: arial black, sans-serif;
+}
+
 .navbar-brand {
   padding-left: 10rem;
 }
 
-.container {
-  padding-top: 2rem;
-  margin-right: 200px;
-  margin-left: 200px;
+.row {
+  margin: 0;
+  padding-top: 3rem;
+}
+
+.left {
+  text-align: right;
 }
 
 .right {
-}
-
-body {
-  font-family: arial, ｍｓ ｐゴシック, ms pgothic, 돋움, dotum, helvetica,
-    sans-serif;
+  padding-top: 7rem;
+  width: 20px;
+  text-align: left;
+  max-width: 34%;
 }
 
 h1 {
-  font-size: 3rem;
+  font-size: 4rem;
   font-weight: bold;
-  margin-left: 200px;
 }
 
 span {
   color: #fa4d09;
 }
 
+.button {
+  padding-top: 2rem;
+  text-align: center;
+}
+
 .arrowDown {
+  padding-top: 3rem;
   text-align: center;
 }
