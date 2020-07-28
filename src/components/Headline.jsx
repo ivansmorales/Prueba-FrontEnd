@@ -5,6 +5,7 @@ import { Navbar, Container, Row, Col } from "react-bootstrap";
 import Logo from "./Logo";
 import astronaut from "../img/Group 4032.png";
 import arrow from "../img/Group 4013.png";
+import Button from "./Button";
 
 function Headline() {
   return (
@@ -24,7 +25,7 @@ function Headline() {
               Desarrolla todo <span>tu POTENCIAL</span> dentro del equipo{" "}
               <span>ATOMIC</span>LABS
             </h1>
-            <button class="firstBtn">¡Quiero ser parte!</button>
+            <Button />
           </Col>
         </Row>
       </Container>

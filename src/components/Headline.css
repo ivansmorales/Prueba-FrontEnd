@@ -26,18 +26,6 @@ span {
   color: #fa4d09;
 }
 
-.firstBtn {
-  color: #00609c;
-  border-top-left-radius: 2em;
-  border-top-right-radius: 2em;
-  border-bottom-left-radius: 2em;
-  border-bottom-right-radius: 2em;
-  font-weight: bold;
-  background-color: #fff;
-  font-size: 1.5rem;
-  width: 40%;
-}
-
 .arrowDown {
   text-align: center;
 }
