@@ -1,4 +1,25 @@
 .footer {
   background-color: black;
+  text-align: center;
+  font-family: Poppins, sans-serif;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+p,
+a {
   color: white;
+}
+
+.copyright {
+  padding-right: 25rem;
+  padding-left: 8rem;
+}
+
+.aviso {
+  text-decoration: underline;
+}
+
+.logo:hover {
+  background-color: red;
 }

@@ -9,22 +9,22 @@ function Footer() {
   return (
     <div className="footer">
       <Nav>
-        <Nav.Item>
+        <Nav.Item className="copyright">
           <Nav.Link eventKey="disabled" disabled>
-            <p>&copy; AtomicLabs. Todos los derechos reservados</p>
+            <p>&copy; 2020 AtomicLabs. Todos los derechos reservados.</p>
           </Nav.Link>
         </Nav.Item>
-        <Nav.Item>
+        <Nav.Item className="aviso">
           <Nav.Link href="/aviso">Aviso de privacidad</Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link href="https://www.linkedin.com/company/atomic-mexico/">
-            <img src={linkedin} />
+            <img src={linkedin} class="logo" />
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
           <Nav.Link href="https://twitter.com/AtomicMexico?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor">
-            <img src={twitter} />
+            <img src={twitter} class="logo" />
           </Nav.Link>
         </Nav.Item>
       </Nav>
