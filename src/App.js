@@ -4,6 +4,7 @@ import "./App.css";
 import Headline from "./components/Headline";
 import Footer from "./components/Footer";
 import About from "./components/About";
+import WorkWithUs from "./components/WorkWithUs";
 
 function App() {
   return (
@@ -14,7 +15,9 @@ function App() {
       <div className="section-2">
         <About />
       </div>
-      <Footer />
+      <div className="section-3">
+        <WorkWithUs />
+      </div>
     </div>
   );
 }

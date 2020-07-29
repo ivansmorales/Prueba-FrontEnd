@@ -23,11 +23,11 @@ function Headline() {
           <div>
             <h2 className="phrase-1">Desarrolla todo</h2>
             <h1 className="phrase-2">
-              <span>tu POTENCIAL</span>
+              <span className="orange">tu POTENCIAL</span>
             </h1>
             <h2 className="phrase-3">dentro del equipo</h2>
             <h1 className="phrase-4">
-              <span>ATOMIC</span>LABS
+              <span className="orange">ATOMIC</span>LABS
             </h1>
           </div>
           <div className="button">
