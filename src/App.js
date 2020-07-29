@@ -5,6 +5,7 @@ import Headline from "./components/Headline";
 import Footer from "./components/Footer";
 import About from "./components/About";
 import WorkWithUs from "./components/WorkWithUs";
+import WhyAtomic from "./components/WhyAtomic";
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
       </div>
       <div className="section-3">
         <WorkWithUs />
+      </div>
+      <div className="section-4">
+        <WhyAtomic />
       </div>
     </div>
   );

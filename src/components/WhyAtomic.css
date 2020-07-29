@@ -1,0 +1,22 @@
+#whyAtomic {
+  height: auto;
+  font-family: Montserrat, sans-serif;
+}
+
+.pros {
+  text-align: center;
+  color: white;
+  font-size: 1.5rem;
+}
+
+.pros ul {
+  list-style-image: url("../img/ic_check_tiny.png");
+}
+
+.pros li:before {
+  margin-right: -5px;
+}
+
+.pros li {
+  text-indent: 5px;
+}

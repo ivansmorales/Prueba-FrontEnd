@@ -10,7 +10,7 @@ function WorkWithUs() {
   return (
     <div id="workingWithUs">
       <div className="info">
-        <h1 className="info-h1">¡Te encantará!</h1>
+        <h1 className="info-h1">¡Te encantará</h1>
         <h1 className="info-h1">
           <span className="orange">trabajar con nosotros!</span>
         </h1>
