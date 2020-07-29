@@ -20,17 +20,23 @@ function Headline() {
           <img className="astronaut" src={astronaut} alt="astrounaut" />
         </Col>
         <Col lg={6} className="right">
-          <h1>
-            Desarrolla todo <span>tu POTENCIAL</span> dentro del equipo{" "}
-            <span>ATOMIC</span>LABS
-          </h1>
+          <div>
+            <h2 className="phrase-1">Desarrolla todo</h2>
+            <h1 className="phrase-2">
+              <span>tu POTENCIAL</span>
+            </h1>
+            <h2 className="phrase-3">dentro del equipo</h2>
+            <h1 className="phrase-4">
+              <span>ATOMIC</span>LABS
+            </h1>
+          </div>
           <div className="button">
             <Button />
           </div>
         </Col>
       </Row>
       <div className="arrowDown">
-        <img src={arrow} />
+        <img src={arrow} href="#about" className="arrow" alt="arrow-down" />
         <p>Quiero saber más</p>
       </div>
     </div>

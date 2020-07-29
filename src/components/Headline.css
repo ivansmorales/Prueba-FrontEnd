@@ -20,11 +20,28 @@ body {
   width: 20px;
   text-align: left;
   max-width: 34%;
+  font-family: Montserrat, sans-serif;
 }
 
-h1 {
-  font-size: 4rem;
+h1,
+h2 {
   font-weight: bold;
+}
+
+.phrase-1 {
+  font-size: 4.5rem;
+}
+
+.phrase-2 {
+  font-size: 4.8rem;
+}
+
+.phrase-3 {
+  font-size: 3.8rem;
+}
+
+.phrase-4 {
+  font-size: 5.15rem;
 }
 
 span {
@@ -39,4 +56,14 @@ span {
 .arrowDown {
   padding-top: 3rem;
   text-align: center;
+  font-family: Poppins, sans-serif;
+}
+
+.arrow {
+  cursor: pointer;
+}
+
+p {
+  font-size: 1.3rem;
+  font-weight: 400;
 }

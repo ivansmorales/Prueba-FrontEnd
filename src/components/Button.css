@@ -1,12 +1,13 @@
 .firstBtn {
-  font-family: arial, sans-serif;
+  font-family: Poppins, sans-serif;
   color: #00609c;
   border-top-left-radius: 2em;
   border-top-right-radius: 2em;
   border-bottom-left-radius: 2em;
   border-bottom-right-radius: 2em;
-  font-weight: 600;
   background-color: #fff;
-  font-size: 1.7rem;
-  width: 50%;
+  font-size: 1.6rem;
+  font-weight: 600;
+  width: 52%;
+  padding: 1.5%;
 }
