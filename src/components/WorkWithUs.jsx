@@ -43,7 +43,7 @@ function WorkWithUs() {
           </Row>
         </Container>
       </div>
-      <div className="genericBtn">
+      <div className="genericBtn extra-space">
         <Button />
       </div>
     </div>

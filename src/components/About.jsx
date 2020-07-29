@@ -1,7 +1,7 @@
 import React from "react";
 
 import "./About.css";
-import { CardGroup, Card, Container, Row, Col } from "react-bootstrap";
+import { Card, Container, Row, Col } from "react-bootstrap";
 import worlds from "../img/Group 4035.png";
 import cloud from "../img/Group 4036.png";
 import moon from "../img/Group 4037.png";
