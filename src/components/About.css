@@ -1,0 +1,25 @@
+.info {
+  font-family: Montserrat, sans-serif;
+  text-align: center;
+  color: white;
+  padding-top: 3rem;
+}
+
+.info-h1 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+.cards {
+  text-align: center;
+  padding-top: 3rem;
+}
+
+.card {
+  max-width: 20%;
+}
+
+.card-img-top {
+  width: 50%;
+}
