@@ -1,10 +1,12 @@
 import React from "react";
 
 import "./WhyAtomic.css";
-import { Col, Container, Row } from "react-bootstrap";
+import { Col, Container, Row, Table } from "react-bootstrap";
+import Button from "./Button";
 import astropc from "../img/Group 4041 1.png";
 import engineer from "../img/Group 4042.png";
 import astrolympic from "../img/Group 4043.png";
+import checkmark from "../img/ic_check_tiny.png";
 
 function WhyAtomic() {
   return (
@@ -15,7 +17,7 @@ function WhyAtomic() {
           <span className="orange"> atomic?</span>
         </h1>
       </div>
-      <div class="pros">
+      <div className="pros">
         <Container>
           <Row>
             <Col>
@@ -63,6 +65,72 @@ function WhyAtomic() {
             </Col>
           </Row>
         </Container>
+      </div>
+      <div className="characteristics">
+        <Container>
+          <Table>
+            <thead>
+              <tr>
+                <th>Características</th>
+                <th>Otros</th>
+                <th>Atomic</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Equipo incluviso, honesto y auténtico</td>
+                <td>
+                  <img src={checkmark} alt="checkmark" />
+                </td>
+                <td>
+                  <img src={checkmark} alt="checkmark" />
+                </td>
+              </tr>
+              <tr>
+                <td>Puntualidad es nuestro segundo nombre</td>
+                <td>
+                  <img src={checkmark} alt="checkmark" />
+                </td>
+                <td>
+                  <img src={checkmark} alt="checkmark" />
+                </td>
+              </tr>
+              <tr>
+                <td>Siempre innovamos en nuestros productos</td>
+                <td>
+                  <img src={checkmark} alt="checkmark" />
+                </td>
+                <td>
+                  <img src={checkmark} alt="checkmark" />
+                </td>
+              </tr>
+              <tr>
+                <td>Te ayudamos a crecer e implementar nuevos conocimientos</td>
+                <td></td>
+                <td>
+                  <img src={checkmark} alt="checkmark" />
+                </td>
+              </tr>
+              <tr>
+                <td>Nos preocupamos por tu bienestar</td>
+                <td></td>
+                <td>
+                  <img src={checkmark} alt="checkmark" />
+                </td>
+              </tr>
+              <tr>
+                <td>El respeto es una parte fundamental</td>
+                <td></td>
+                <td>
+                  <img src={checkmark} alt="checkmark" />
+                </td>
+              </tr>
+            </tbody>
+          </Table>
+        </Container>
+        <div className="genericBtn">
+          <Button />
+        </div>
       </div>
     </div>
   );

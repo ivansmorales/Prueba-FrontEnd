@@ -22,6 +22,7 @@ function App() {
       <div className="section-4">
         <WhyAtomic />
       </div>
+      <Footer />
     </div>
   );
 }
