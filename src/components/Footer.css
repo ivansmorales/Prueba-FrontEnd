@@ -8,7 +8,9 @@
 
 p,
 a {
+  padding-top: 1rem;
   color: white;
+  font-weight: 600;
 }
 
 .copyright {
@@ -17,5 +19,15 @@ a {
 }
 
 .aviso {
+  padding-top: 1rem;
   text-decoration: underline;
+}
+
+.logo {
+  padding-top: 1rem;
+}
+
+.ln,
+.tw {
+  margin-left: 1rem;
 }
