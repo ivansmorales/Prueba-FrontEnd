@@ -71,57 +71,63 @@ function WhyAtomic() {
           <Table>
             <thead>
               <tr>
-                <th>Características</th>
+                <th className="left">Características</th>
                 <th>Otros</th>
-                <th>Atomic</th>
+                <th className="bigger bluec">Atomic</th>
               </tr>
             </thead>
             <tbody>
               <tr>
-                <td>Equipo incluviso, honesto y auténtico</td>
-                <td>
-                  <img src={checkmark} alt="checkmark" />
+                <td className="left first-td">
+                  Equipo inclusivo, honesto y auténtico
                 </td>
                 <td>
                   <img src={checkmark} alt="checkmark" />
                 </td>
-              </tr>
-              <tr>
-                <td>Puntualidad es nuestro segundo nombre</td>
-                <td>
-                  <img src={checkmark} alt="checkmark" />
-                </td>
-                <td>
+                <td className="bluec">
                   <img src={checkmark} alt="checkmark" />
                 </td>
               </tr>
               <tr>
-                <td>Siempre innovamos en nuestros productos</td>
+                <td className="left">Puntualidad es nuestro segundo nombre</td>
                 <td>
                   <img src={checkmark} alt="checkmark" />
                 </td>
-                <td>
+                <td className="bluec">
                   <img src={checkmark} alt="checkmark" />
                 </td>
               </tr>
               <tr>
-                <td>Te ayudamos a crecer e implementar nuevos conocimientos</td>
+                <td className="left">
+                  Siempre innovamos en nuestros productos
+                </td>
+                <td>
+                  <img src={checkmark} alt="checkmark" />
+                </td>
+                <td className="bluec">
+                  <img src={checkmark} alt="checkmark" />
+                </td>
+              </tr>
+              <tr>
+                <td className="left">
+                  Te ayudamos a crecer e implementar nuevos conocimientos
+                </td>
                 <td></td>
-                <td>
+                <td className="bluec">
                   <img src={checkmark} alt="checkmark" />
                 </td>
               </tr>
               <tr>
-                <td>Nos preocupamos por tu bienestar</td>
+                <td className="left">Nos preocupamos por tu bienestar</td>
                 <td></td>
-                <td>
+                <td className="bluec">
                   <img src={checkmark} alt="checkmark" />
                 </td>
               </tr>
               <tr>
-                <td>El respeto es una parte fundamental</td>
+                <td className="left">El respeto es una parte fundamental</td>
                 <td></td>
-                <td>
+                <td className="bluec">
                   <img src={checkmark} alt="checkmark" />
                 </td>
               </tr>

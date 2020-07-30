@@ -17,7 +17,6 @@ body {
   background-size: cover;
   background-position: top;
   min-height: 100vh;
-  background-attachment: fixed;
   color: white;
 }
 

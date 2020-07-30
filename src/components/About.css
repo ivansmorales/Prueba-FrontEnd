@@ -1,70 +1,100 @@
-.info {
-  font-family: Montserrat, sans-serif;
+#about {
+  height: auto;
   text-align: center;
+  font-family: Montserrat, sans-serif;
   color: white;
+  padding-top: 2rem;
 }
 
 .info-h1 {
   text-transform: uppercase;
   font-size: 3.5rem;
   font-weight: 800;
+  color: white;
 }
 
-#about {
+#wrapper {
   max-width: 1300px;
-  font-family: Montserrat, sans-serif;
 }
 
 .card {
   border-radius: 0.8rem;
 }
 
-.bold {
-  font-weight: 700;
-}
-
 .card-body {
   text-align: center;
 }
-.card-title {
-  font-size: 2.5rem;
+
+.card-title,
+.card-subtitle {
+  font-size: 2.3rem;
   color: #fa4d09;
   font-weight: 800;
 }
 
-.card-img-top {
-  width: 70%;
-  margin: 0 auto;
+.bold {
+  font-weight: 700;
 }
 
 .middleCard {
   background-color: #fa4d09;
-  height: 100%;
-  width: 120%;
+  height: 105%;
+  width: 125%;
+  z-index: 2;
+  left: -75px;
+}
+
+.middleCard .card-img-top {
+  width: 50%;
+}
+
+.middleCard .card-title,
+.middleCard .card-subtitle {
+  color: #fff;
+  text-shadow: 0px 1px 2px black;
+}
+
+.middleCard .card-text ul {
+  font-size: 1.8rem;
+  list-style: square url("../img/bullet_s.png");
+  color: white;
 }
 
 .rightCard,
 .leftCard {
   width: 110%;
+  top: 60px;
 }
 
-.middleCard .card-img-top {
-  width: 85%;
+.leftCard {
+  left: -35px;
 }
 
-.middleCard .card-title,
-.middleCard .card-text ul {
-  color: #fff;
+.rightCard {
+  right: 35px;
+}
+
+.rightCard ul,
+.leftCard ul {
+  padding-left: 2.2rem;
+}
+
+.card-img-top {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.card-text {
+  margin-left: auto;
+  margin-right: auto;
+  display: table;
 }
 
 .card-text ul {
   color: black;
   font-weight: 500;
-  font-size: 1.8rem;
+  font-size: 1.45rem;
+  text-align: left;
   padding-top: 1.3rem;
-}
-
-.test {
-  position: relative;
-  left: 20px;
+  list-style: square url("../img/bullet_xs.png");
 }

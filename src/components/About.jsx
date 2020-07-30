@@ -8,20 +8,21 @@ import moon from "../img/Group 4037.png";
 
 function About() {
   return (
-    <div>
+    <div id="about">
       <div className="info">
         <h1 className="info-h1">Somos el brazo derecho</h1>
         <h1 className="info-h1">
-          <span>de la tecnología</span>
+          <span className="orange">de la tecnología</span>
         </h1>
       </div>
-      <div className="cards">
-        <Container id="about">
+      <div>
+        <Container id="wrapper">
           <Row>
             <Col lg={4}>
               <Card className="leftCard">
                 <Card.Img variant="top" src={worlds} />
                 <Card.Body>
+                  <Card.Subtitle>— - —</Card.Subtitle>
                   <Card.Title>EXPLORA</Card.Title>
                   <Card.Text>
                     <ul>
@@ -44,6 +45,7 @@ function About() {
               <Card className="middleCard">
                 <Card.Img variant="top" src={cloud} />
                 <Card.Body>
+                  <Card.Subtitle>— - —</Card.Subtitle>
                   <Card.Title>IMAGINA</Card.Title>
                   <Card.Text>
                     <ul>
@@ -68,6 +70,7 @@ function About() {
               <Card className="rightCard">
                 <Card.Img variant="top" src={moon} />
                 <Card.Body>
+                  <Card.Subtitle>— - —</Card.Subtitle>
                   <Card.Title>CONQUISTA</Card.Title>
                   <Card.Text>
                     <ul>

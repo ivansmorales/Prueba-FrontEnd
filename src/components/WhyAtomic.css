@@ -2,26 +2,64 @@
   height: auto;
   font-family: Montserrat, sans-serif;
   color: white;
+  text-align: center;
+}
+
+#whyAtomic .col {
+  padding-right: 84px;
+}
+
+#whyAtomic .row {
+  padding-top: 0;
+}
+
+#whyAtomic li {
+  text-align: left;
 }
 
 .pros {
   text-align: center;
-
-  font-size: 1.5rem;
+  font-size: 1.45rem;
 }
 
 .pros ul {
   list-style-image: url("../img/ic_check_tiny.png");
 }
 
-.pros li:before {
-  margin-right: -5px;
-}
-
-.pros li {
-  text-indent: 5px;
+.characteristics {
+  padding-top: 3rem;
 }
 
 .table {
   background-color: white;
+  border-radius: 0.8rem;
+}
+
+.table th {
+  border-top: none;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 700;
+  padding: 1.5rem;
+}
+
+.table td {
+  padding-left: 1.8rem;
+}
+
+.first-td {
+  border-top: none;
+}
+
+.table .left {
+  text-align: left;
+  /* border-right: 0.5px solid black; */
+}
+
+.table .bigger {
+  font-size: 1.9rem;
+}
+
+.table .bluec {
+  background-color: #e9f1f6;
 }
