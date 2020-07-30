@@ -25,6 +25,17 @@ body {
 .section-4 {
   background-color: #072348;
 }
+.section-2 {
+  background-image: url("./img/background3.png");
+}
+
+.section-3 {
+  background-image: url("./img/background2.png");
+}
+
+.section-4 {
+  background-image: url("./img/background1.png");
+}
 
 .orange {
   color: #fa4d09;

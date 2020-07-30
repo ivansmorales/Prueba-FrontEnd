@@ -72,7 +72,7 @@ function WhyAtomic() {
             <thead>
               <tr>
                 <th className="left">Características</th>
-                <th>Otros</th>
+                <th className="gray">Otros</th>
                 <th className="bigger bluec">Atomic</th>
               </tr>
             </thead>
@@ -81,7 +81,7 @@ function WhyAtomic() {
                 <td className="left first-td">
                   Equipo inclusivo, honesto y auténtico
                 </td>
-                <td>
+                <td className="gray">
                   <img src={checkmark} alt="checkmark" />
                 </td>
                 <td className="bluec">
@@ -90,7 +90,7 @@ function WhyAtomic() {
               </tr>
               <tr>
                 <td className="left">Puntualidad es nuestro segundo nombre</td>
-                <td>
+                <td className="gray">
                   <img src={checkmark} alt="checkmark" />
                 </td>
                 <td className="bluec">
@@ -101,7 +101,7 @@ function WhyAtomic() {
                 <td className="left">
                   Siempre innovamos en nuestros productos
                 </td>
-                <td>
+                <td className="gray">
                   <img src={checkmark} alt="checkmark" />
                 </td>
                 <td className="bluec">
@@ -112,21 +112,21 @@ function WhyAtomic() {
                 <td className="left">
                   Te ayudamos a crecer e implementar nuevos conocimientos
                 </td>
-                <td></td>
+                <td className="gray"></td>
                 <td className="bluec">
                   <img src={checkmark} alt="checkmark" />
                 </td>
               </tr>
               <tr>
                 <td className="left">Nos preocupamos por tu bienestar</td>
-                <td></td>
+                <td className="gray"></td>
                 <td className="bluec">
                   <img src={checkmark} alt="checkmark" />
                 </td>
               </tr>
               <tr>
                 <td className="left">El respeto es una parte fundamental</td>
-                <td></td>
+                <td className="gray"></td>
                 <td className="bluec">
                   <img src={checkmark} alt="checkmark" />
                 </td>
