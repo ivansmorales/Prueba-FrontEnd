@@ -1,9 +1,11 @@
 #form {
-  background-image: url("../img/Mask\ Group\ 1@2x.png");
+  background-image: url("../../img/Mask\ Group\ 1@2x.png");
   background-color: #072348;
   background-size: cover;
   background-position: -80px -540px;
   background-repeat: no-repeat;
   min-height: 100vh;
   background-attachment: fixed;
+  color: white;
+  font-family: Montserrat, sans-serif;
 }

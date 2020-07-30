@@ -1,0 +1,10 @@
+#header h1 {
+  color: white;
+  font-family: Montserrat, sans-serif;
+  text-transform: uppercase;
+  display: inline-block;
+}
+
+#header img {
+  display: inline-block;
+}
