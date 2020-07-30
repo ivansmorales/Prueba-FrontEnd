@@ -40,7 +40,7 @@
 }
 
 .s50 {
-  width: 74%;
+  width: 50%;
 }
 
 .s75 {
@@ -51,16 +51,11 @@
   width: 150%;
 } */
 
-.step-1 {
-  padding: 0 0 0 10rem;
-}
-
+.step-1,
 .step-2,
 .step-3,
-.step-4,
-.sending-status,
-.status-validated {
-  display: none;
+.step-4 {
+  padding: 0 0 0 10rem;
 }
 
 .first-p {
@@ -69,9 +64,13 @@
 }
 
 /* Form */
+
 .form-control {
   width: 25%;
   font-size: 1.25rem;
+  background: url("../../img/ic_lock2_24px.png") no-repeat scroll 25rem 7px;
+  background-color: #fff;
+  color: black;
 }
 
 label {
