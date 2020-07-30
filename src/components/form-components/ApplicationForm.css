@@ -56,11 +56,21 @@
 .step-3,
 .step-4 {
   padding: 0 0 0 10rem;
+  height: 600px;
 }
 
-.first-p {
-  font-size: 1.5rem;
+.only-p {
   padding-bottom: 2rem;
+}
+
+.first-p,
+.only-p {
+  font-size: 1.5rem;
+}
+
+.second-p {
+  font-size: 1.3rem;
+  padding-bottom: 0.5rem;
 }
 
 /* Form */
@@ -95,5 +105,5 @@ label {
 /* Image aside */
 .right-image {
   float: right;
-  margin: -10rem 30rem 0 0;
+  margin: -10rem 18rem 0 0;
 }

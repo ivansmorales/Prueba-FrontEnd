@@ -19,8 +19,14 @@ import gstep4 from "../../img/Group 4018.png";
 
 import checkmark from "../../img/Group 4016.png";
 import lock from "../../img/ic_lock2_24px.png";
+import Footer from "../Footer";
 
 function ApplicationForm() {
+  const [step1, setStep1] = useState(false);
+  const [step2, setStep2] = useState(false);
+  const [step3, setStep3] = useState(false);
+  const [step4, setStep4] = useState(false);
+
   return (
     <div id="form">
       <Navbar>
@@ -41,7 +47,9 @@ function ApplicationForm() {
         </div> */}
         <ProgressBar now={25} />
       </div>
+      {/* {step1 ? <Step1 /> : <Step2 />} */}
       <Step1 />
+      <Footer />
     </div>
   );
 }

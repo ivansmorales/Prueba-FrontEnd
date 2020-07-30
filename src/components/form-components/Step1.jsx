@@ -19,15 +19,20 @@ function Step1() {
     setValidated(true);
   };
 
+  function step2() {
+    console.log("click");
+  }
+
   return (
     <div className="step-1">
       <div className="right-image">
         <img src={astrosit} alt="An astronaut on the floor" />
       </div>
       <Header title="Te queremos" span="conocer" img={n1} alt={"number-1"} />
-      <p className="first-p">
+      <p className="only-p">
         Queremos saber que eres tú, por favor ingresa los siguientes datos:
       </p>
+
       <Form noValidate validated={validated} onSubmit={handleSubmit}>
         <Form.Group controlId="formBasicName">
           <Form.Label>Nombre (s)</Form.Label>
@@ -41,7 +46,7 @@ function Step1() {
           <Form.Control type="text" />
         </Form.Group>
         <div class="btn-wrapper">
-          <Button variant="primary" type="submit">
+          <Button variant="primary" onClick={step2}>
             Enviar
           </Button>
         </div>
