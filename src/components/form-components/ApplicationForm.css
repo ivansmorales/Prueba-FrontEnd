@@ -1,0 +1,100 @@
+#form {
+  background-image: url("../../img/background4.png");
+  background-color: #072348;
+  background-size: cover;
+  /* background-position: -80px -540px; */
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  background-attachment: fixed;
+  color: white;
+  font-family: Montserrat, sans-serif;
+}
+
+.progress-wrapper {
+  padding: 3rem 0 3.5rem 10.2rem;
+}
+
+/* Progress Bar */
+.progress {
+  width: 50%;
+  border-radius: 0.5rem;
+}
+
+.progress-bar {
+  background-color: #fa4d09;
+  border-radius: 18rem;
+}
+
+.number-progress {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  overflow: hidden;
+  color: #fff;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.s25 {
+  width: 25%;
+}
+
+.s50 {
+  width: 74%;
+}
+
+.s75 {
+  width: 111%;
+}
+
+/* .s100 {
+  width: 150%;
+} */
+
+.step-1 {
+  padding: 0 0 0 10rem;
+}
+
+.step-2,
+.step-3,
+.step-4,
+.sending-status,
+.status-validated {
+  display: none;
+}
+
+.first-p {
+  font-size: 1.5rem;
+  padding-bottom: 2rem;
+}
+
+/* Form */
+.form-control {
+  width: 25%;
+  font-size: 1.25rem;
+}
+
+label {
+  font-size: 1.4rem;
+}
+
+.btn-wrapper {
+  padding: 5rem 0 0 42rem;
+}
+
+.btn {
+  border-radius: 2rem;
+  font-size: 1.3rem;
+  width: 20%;
+}
+
+.btn-primary {
+  background-color: #fa4d09;
+  border-color: #fa4d09;
+}
+
+/* Image aside */
+.right-image {
+  float: right;
+  margin: -10rem 30rem 0 0;
+}

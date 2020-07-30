@@ -4,14 +4,14 @@ import "./App.css";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 
 import Home from "./components/Home";
-import Form from "./components/form-components/Form";
+import ApplicationForm from "./components/form-components/ApplicationForm";
 
 function App() {
   return (
     <Router>
       <Switch>
         <Route path="/form">
-          <Form />
+          <ApplicationForm />
         </Route>
         <Route path="/">
           <Home />
