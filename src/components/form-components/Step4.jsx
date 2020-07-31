@@ -22,7 +22,7 @@ function Step4() {
         <Form.Check.Input type="checkbox" />
         <Form.Check.Label>{`Acepto los términos y condiciones.`}</Form.Check.Label>
       </Form>
-      <div class="btn-wrapper">
+      <div className="btn-wrapper">
         <Button variant="primary">Enviar</Button>
       </div>
     </div>

@@ -16,7 +16,7 @@ function WorkWithUs() {
         </h1>
       </div>
       <div>
-        <img src={people} alt="people" class="peopleImg" />
+        <img src={people} alt="people" className="peopleImg" />
         <Container>
           <Row>
             <Col>

@@ -6,7 +6,7 @@ import Header from "./Header";
 import n1 from "../../img/Group 4014.png";
 import astrosit from "../../img/Group 4033.png";
 
-function Step1() {
+function Step1(props) {
   const [validated, setValidated] = useState(false);
 
   const handleSubmit = (event) => {
@@ -19,8 +19,9 @@ function Step1() {
     setValidated(true);
   };
 
-  function step2() {
-    console.log("click");
+  function showStep2(event) {
+    props.toggler();
+    event.preventDefault();
   }
 
   return (
@@ -45,8 +46,8 @@ function Step1() {
           <Form.Label>Apellidos</Form.Label>
           <Form.Control type="text" />
         </Form.Group>
-        <div class="btn-wrapper">
-          <Button variant="primary" onClick={step2}>
+        <div className="btn-wrapper">
+          <Button variant="primary" onClick={showStep2}>
             Enviar
           </Button>
         </div>

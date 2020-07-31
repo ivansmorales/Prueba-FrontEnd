@@ -22,10 +22,28 @@ import lock from "../../img/ic_lock2_24px.png";
 import Footer from "../Footer";
 
 function ApplicationForm() {
-  const [step1, setStep1] = useState(false);
+  const [step1, setStep1] = useState(true);
   const [step2, setStep2] = useState(false);
   const [step3, setStep3] = useState(false);
   const [step4, setStep4] = useState(false);
+
+  function changeState() {
+    setStep1(false);
+    setStep2(true);
+  }
+
+  function changeState2() {
+    setStep1(false);
+    setStep2(false);
+    setStep3(true);
+  }
+
+  function changeState3() {
+    setStep1(false);
+    setStep2(false);
+    setStep3(false);
+    setStep4(true);
+  }
 
   return (
     <div id="form">
@@ -47,8 +65,15 @@ function ApplicationForm() {
         </div> */}
         <ProgressBar now={25} />
       </div>
-      {/* {step1 ? <Step1 /> : <Step2 />} */}
-      <Step1 />
+      {step1 ? (
+        <Step1 toggler={changeState} />
+      ) : <Step2 toggler={changeState2} /> && step2 ? (
+        <Step2 toggler={changeState2} />
+      ) : <Step3 toggler={changeState3} /> && step3 ? (
+        <Step3 toggler={changeState3} />
+      ) : (
+        <Step4 />
+      )}
       <Footer />
     </div>
   );

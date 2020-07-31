@@ -7,7 +7,12 @@ import Return from "./Return";
 import n2 from "../../img/Group 4023.png";
 import astrofly from "../../img/Group 4034.png";
 
-function Step2() {
+function Step2(props) {
+  function showStep3(event) {
+    props.toggler();
+    event.preventDefault();
+  }
+
   return (
     <div className="step-2">
       <div className="right-image">
@@ -24,8 +29,10 @@ function Step2() {
           <Form.Label>Número de celular</Form.Label>
           <Form.Control required type="number" />
         </Form.Group>
-        <div class="btn-wrapper">
-          <Button variant="primary">Continuar</Button>
+        <div className="btn-wrapper">
+          <Button variant="primary" onClick={showStep3}>
+            Continuar
+          </Button>
         </div>
       </Form>
     </div>

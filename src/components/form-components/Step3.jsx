@@ -9,7 +9,12 @@ import edit from "../../img/Group 4026.png";
 import astrofly from "../../img/Group 4034.png";
 import Return from "./Return";
 
-function Step3() {
+function Step3(props) {
+  function showStep4(event) {
+    props.toggler();
+    event.preventDefault();
+  }
+
   return (
     <div className="step-3">
       <div className="right-image">
@@ -32,8 +37,10 @@ function Step3() {
       <p>
         ¿No recibiste el código? <b>Reenviar código</b>
       </p>
-      <div class="btn-wrapper">
-        <Button variant="primary">Validar código</Button>
+      <div className="btn-wrapper">
+        <Button variant="primary" onClick={showStep4}>
+          Validar código
+        </Button>
       </div>
     </div>
   );
