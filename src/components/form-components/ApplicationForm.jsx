@@ -18,7 +18,6 @@ import gstep3 from "../../img/Group 4017.png";
 import gstep4 from "../../img/Group 4018.png";
 
 import checkmark from "../../img/Group 4016.png";
-import lock from "../../img/ic_lock2_24px.png";
 import Footer from "../Footer";
 
 function ApplicationForm() {

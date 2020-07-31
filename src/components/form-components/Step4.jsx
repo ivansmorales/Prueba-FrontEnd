@@ -7,6 +7,8 @@ import astrothinking from "../../img/Group 4038.png";
 import Return from "./Return";
 
 function Step4() {
+  function verTerminos() {}
+
   return (
     <div className="step-4">
       <div className="right-image">
@@ -17,7 +19,9 @@ function Step4() {
       <p className="first-p">
         Por favor revisa nuestros términos y condiciones para este servicio:
       </p>
-      <p>Consulta Términos y Condiciones</p>
+      <p className="terminos" onClick={verTerminos}>
+        Consulta Términos y Condiciones
+      </p>
       <Form>
         <Form.Check.Input type="checkbox" />
         <Form.Check.Label>{`Acepto los términos y condiciones.`}</Form.Check.Label>

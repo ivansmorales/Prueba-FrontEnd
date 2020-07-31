@@ -22,7 +22,7 @@ function Footer() {
             className="logo ln"
             href="https://www.linkedin.com/company/atomic-mexico/"
           >
-            <img src={linkedin} />
+            <img src={linkedin} alt="linkedin logo" />
           </Nav.Link>
         </Nav.Item>
         <Nav.Item>
@@ -30,7 +30,7 @@ function Footer() {
             className="logo tw"
             href="https://twitter.com/AtomicMexico?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor"
           >
-            <img src={twitter} />
+            <img src={twitter} alt="twitter logo" />
           </Nav.Link>
         </Nav.Item>
       </Nav>

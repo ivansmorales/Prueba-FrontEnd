@@ -1,6 +1,6 @@
 import React from "react";
 
-import { Navbar, Container, Row, Col } from "react-bootstrap";
+import { Navbar, Row, Col } from "react-bootstrap";
 import "./Headline.css";
 import Logo from "./Logo";
 import astronaut from "../img/Group 4032.png";

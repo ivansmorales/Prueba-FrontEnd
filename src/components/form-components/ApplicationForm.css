@@ -107,3 +107,12 @@ label {
   float: right;
   margin: -10rem 18rem 0 0;
 }
+
+.display {
+  display: block;
+}
+
+.terminos {
+  text-decoration: underline;
+  cursor: pointer;
+}
