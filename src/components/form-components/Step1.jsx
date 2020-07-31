@@ -9,8 +9,8 @@ import astrosit from "../../img/Group 4033.png";
 function Step1(props) {
   const [validated, setValidated] = useState(false);
   const [user, setUser] = useState({
-    name: "",
-    subname: "",
+    name: "Car",
+    subname: "Domínguez Hernández",
     phone: "",
   });
 
