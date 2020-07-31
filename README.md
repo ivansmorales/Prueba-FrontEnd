@@ -1,5 +1,9 @@
 # Prueba Front-End
 
+## Download
+
+1. Clone this repository or download it as a zip file.
+
 ## Installation
 
 1. Install modules on package.json
